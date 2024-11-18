@@ -58,10 +58,20 @@
   font-family: "inter", sans-serif;
 }
 
+/* CHANGE TO HEADER maybe?  */
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-family: "inter", sans-serif;
+  color: #131C51;
+  padding-left: 5%;
+}
+
 /* BODY ---------------------------------------------- */
 
 body {
-  background-color: white;
+  background-color: #92AFFF;
 }
 
 .homeImage {
