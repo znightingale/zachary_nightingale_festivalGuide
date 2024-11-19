@@ -9,27 +9,25 @@
 /* <uniquifier>: Use a unique and descriptive class name
    <weight>: Use a value from 100 to 900 */
 
-.montserrat-/* uniquifier */ {
+.montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: /* weight */;
+  font-weight: 500;
   font-style: normal;
 }
 
-.inter-/* uniquifier */ {
+.inter-bold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: /* weight */;
+  font-weight: 800;
   font-style: normal;
 }
 
-.nunito-sans-/* uniquifier */ {
+.nunito-sans {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: /* weight */
-  font-style: normal;
+  font-weight: 500;
   font-variation-settings:
-/*    "wdth" 100, "YTLC" 500;   */
 }
 
 /* HEADER --------------------------------------------- */
@@ -43,6 +41,7 @@
 #logo {
     max-width: 206px;
     position: absolute;
+    z-index: 1;
 }
 
 #oceana {
@@ -54,18 +53,11 @@
 
 #filmScreen {
   padding-left: 220px;
-  padding-top: 12px;
-  font-family: "inter", sans-serif;
-}
-
-/* CHANGE TO HEADER maybe?  */
-.navContainer {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  font-family: "inter", sans-serif;
-  color: #131C51;
-  padding-left: 5%;
+  padding-top: 5px;
+  font-family: "inter-bold", sans-serif;
+  font-size: 1.1em;
+  color: white;
+  letter-spacing: 0.05em;
 }
 
 /* BODY ---------------------------------------------- */
@@ -74,6 +66,35 @@ body {
   background-color: #92AFFF;
 }
 
+.navContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-family: "inter-bold", sans-serif;
+  font-size: 1.1em;
+  color: #131C51;
+  justify-content: right;
+  padding-right: 3%;
+}
+
+.navText {
+  text-decoration: none;
+  font-family: "inter-bold", sans-serif;
+  font-size: 1.1em;
+  color: #131C51;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  border: 1px solid #131C51;
+}
+
+.middleBlue {
+  background-color: #3D59A6;
+}
+
 .homeImage {
-  max-width: 150px;
+  max-width: 50%;
+  padding-top: 10%;
 }
