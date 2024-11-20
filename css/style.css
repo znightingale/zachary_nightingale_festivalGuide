@@ -33,7 +33,7 @@
 /* HEADER --------------------------------------------- */
 
 #whiteBar {
-  padding-top: 52px;
+  padding-top: 45.5px;
   background-color: white;
   color: white;
 }
@@ -41,6 +41,7 @@
 #logo {
     max-width: 250px;
     position: absolute;
+    padding-left: 20px;
     z-index: 1;
 }
 
@@ -171,6 +172,8 @@ body {
 .footerHead {
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 400;
   color: white;
   padding-bottom: 20%;
 }
