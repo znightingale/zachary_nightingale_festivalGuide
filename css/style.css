@@ -54,7 +54,7 @@
 #filmScreen {
   padding-left: 270px;
   padding-top: 10px;
-  font-family: "inter-bold", sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 1.1em;
   color: white;
   letter-spacing: 0.05em;
@@ -71,7 +71,7 @@ body {
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  font-family: "inter-bold", sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 1.2em;
   color: #131C51;
   justify-content: right;
@@ -80,7 +80,7 @@ body {
 
 .navText {
   text-decoration: none;
-  font-family: "inter-bold", sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 1.1em;
   font-weight: 200;
   color: #131C51;
@@ -138,4 +138,75 @@ body {
   color: white;
   text-wrap: wrap;
   max-width: 75%;
+}
+
+/* FOOTER ---------------------------------------------- */
+
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #131C51;
+}
+
+.contactContainer {
+  min-width: 20%;
+}
+
+.donateContainer {
+  max-width: 20%;
+}
+
+.registerContainer {
+  max-width: 20%;
+}
+
+.linksContainer {
+  min-width: 20%;
+}
+
+.footerHead {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 20%;
+}
+
+.footerText {
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85em;
+  color: #92AFFF;
+}
+
+#emailBox {
+  outline: 2px solid #3D59A6;
+  margin-top: 18%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#donoBox {
+  background-color: #3D59A6;
+  margin-top: 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.center {
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.email {
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85em;
+  padding-left: 5%;
+  color: #92AFFF;
 }
