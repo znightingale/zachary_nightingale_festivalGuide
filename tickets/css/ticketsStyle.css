@@ -27,7 +27,6 @@ font-style: normal;
 font-family: "Nunito Sans", sans-serif;
 font-optical-sizing: auto;
 font-weight: 500;
-font-variation-settings:
 }
 
 /* HEADER --------------------------------------------- */
@@ -103,6 +102,31 @@ border: 1px solid #131C51;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+#coralImage {
+  max-width: 35%;
+  border-radius: 15%;
+}
+
+.bodyText {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2em;
+  color: white;
+  max-width: 50%;
+}
+
+.allTicketsFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.hugeFlexbox {
+  display: flex;
+  flex-direction: row;
+  background-color:#3D59A6;
+  padding-top: 6%;
+  padding-right: 6%;
 }
 
 /* FOOTER ---------------------------------------------- */
