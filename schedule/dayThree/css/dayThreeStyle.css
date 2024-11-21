@@ -146,7 +146,7 @@
     background-color:#92AFFF;
   }
   
-  .saturday {
+  .sunday {
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -165,7 +165,7 @@
     padding-left: 6%;
   }
   
-  .guestSpeakContainer {
+  .headerTwoContainer {
     display: flex;
     justify-content: space-between;
     background-color: #3D59A6;
@@ -174,7 +174,7 @@
     padding-left: 6%;
   }
   
-  .guestSpeakersAndConcertContainer {
+  .filmScreeningContainer {
     max-width: 35%;
   }
   
@@ -215,7 +215,7 @@
     max-width: 100%;
   }
   
-  .eventTitle {
+  .movieTitle {
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -224,7 +224,7 @@
     padding-bottom: 5%;
   }
 
-  .speakerPicFlex {
+  .davidPicFlex {
     background-color: #2A3782;
     display: flex;
     flex-direction: row;
@@ -233,30 +233,12 @@
     padding-bottom: 5%;
   }
 
-  .descriptionFlex {
+  .davidMovieFlex {
     display: flex;
     flex-direction: column;
     padding-right: 25%;
     padding-left: 13.2%;
     padding-top: 6%;
-  }
-
-  .concertPicFlex {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    padding-right: 6%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: #3D59A6;
-  }
-
-  .concertDescriptionFlex {
-    display: flex;
-    flex-direction: column;
-    padding-right: 13.2%;
-    padding-left: 25%;
-    padding-top: 6%; 
   }
 
   /* FOOTER ---------------------------------------------- */
