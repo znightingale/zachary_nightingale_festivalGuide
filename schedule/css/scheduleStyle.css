@@ -105,10 +105,10 @@ border: 1px solid #131C51;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #131C51;
-  padding-left: 0.6%;
-  padding-right: 0.6%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   border: 3px solid #131C51;
@@ -120,10 +120,10 @@ border: 1px solid #131C51;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #131C51;
-  padding-left: 0.6%;
-  padding-right: 0.6%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   border: 3px solid #131C51;
@@ -135,10 +135,10 @@ border: 1px solid #131C51;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #131C51;
-  padding-left: 0.6%;
-  padding-right: 0.6%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   border: 3px solid #131C51;
@@ -149,7 +149,7 @@ border: 1px solid #131C51;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #92AFFF;
   background-color: #3D59A6;
   padding-top: 1%;
@@ -160,7 +160,7 @@ border: 1px solid #131C51;
   justify-content: space-between;
   background-color: #3D59A6;
   padding-top: 3%;
-  padding-right: 20%;
+  padding-right: 6%;
   padding-left: 6%;
 }
 
@@ -169,12 +169,12 @@ border: 1px solid #131C51;
   justify-content: space-between;
   background-color: #3D59A6;
   padding-bottom: 5%;
-  padding-right: 10.5%;
+  padding-right: 6%;
   padding-left: 6%;
 }
 
 .shortFilmsAndPanelsContainer {
-  padding-right: 25%;
+  max-width: 35%;
 }
 
 #halls {
@@ -182,22 +182,23 @@ padding-top: 5%;
 font-family: "Nunito", sans-serif;
 text-transform: uppercase;
 font-weight: 500;
-font-size: 2em;
+font-size: 2.5em;
 color: #92AFFF;
 text-wrap: nowrap;
-padding-right: 6%;
+padding-left: 10%;
+text-align: right;
 }
 
 .subTitle {
   font-family: "Inter", sans-serif;
   padding-bottom: 3%;
-  font-size: 1.5em;
+  font-size: 2em;
   color: white;
 }
 
 .bodyText {
   font-family: "Inter", sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -207,9 +208,10 @@ padding-right: 6%;
   flex-direction: row;
   padding-top: 5%;
   padding-left: 6%;
+  padding-bottom: 5%;
 }
 
-#coralPic {
+.filmPic {
   border-radius: 15%;
   max-width: 30%;
 }
@@ -218,13 +220,15 @@ padding-right: 6%;
   display: flex;
   flex-direction: column;
   padding-right: 25%;
-  padding-left: 5%;
+  padding-left: 13.2%;
+  padding-top: 6%;
 }
 
 .synopsisText {
   font-family: "Inter", sans-serif;
   font-size: 1em;
   color:#92AFFF;
+  max-width: 100%;
 }
 
 .filmTitle {
@@ -234,6 +238,33 @@ padding-right: 6%;
   font-size: 2em;
   color: white;
   padding-bottom: 5%;
+}
+
+.ashleyOakFlex {
+  display: flex;
+  flex-direction: column;
+  padding-right: 13.2%;
+  padding-left: 25%;
+  padding-top: 6%;
+}
+
+.boatPicFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #3D59A6;
+}
+
+.reefPicFlex {
+  background-color: #2A3782;
+}
+
+.freemanFlex {
+  display: flex;
+  flex-direction: column;
 }
 
 /* FOOTER ---------------------------------------------- */
