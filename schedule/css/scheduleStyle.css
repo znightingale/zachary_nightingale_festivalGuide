@@ -95,9 +95,9 @@ border: 1px solid #131C51;
 .dayContainer {
   display: flex;
   flex-direction: row;
-  padding-left: 6%;
   background-color: #3D59A6;
   position: relative;
+  padding-bottom: 3%;
 }
 
 #dayOne {
@@ -152,23 +152,79 @@ border: 1px solid #131C51;
   font-size: 2em;
   color: #92AFFF;
   background-color: #3D59A6;
+  padding-top: 1%;
 }
 
 .topContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #3D59A6;
   padding-top: 3%;
-  padding-right: 10%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .shortFilmContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #3D59A6;
+  padding-bottom: 5%;
+  padding-right: 10.5%;
+  padding-left: 15%;
 }
 
 .shortFilmsAndPanelsContainer {
-background-color: red;
+  padding-right: 25%;
+}
+
+#halls {
+padding-top: 3%;
+font-family: "Nunito", sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 2em;
+color: #92AFFF;
+text-wrap: nowrap;
+}
+
+.subTitle {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 3%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.bodyText {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  color: white;
+}
+
+.coralPicFlex {
+  background-color: #2A3782;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+#coralPic {
+  border-radius: 15%;
+  max-width: 30%;
+}
+
+.jackDwindleFlex {
+  display: flex;
+  flex-direction: column;
+  padding-right: 25%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.synopsisText {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  color:#92AFFF;
 }
 
 /* FOOTER ---------------------------------------------- */
