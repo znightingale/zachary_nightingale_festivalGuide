@@ -97,6 +97,7 @@ border: 1px solid #131C51;
   flex-direction: row;
   padding-left: 6%;
   background-color: #3D59A6;
+  position: relative;
 }
 
 #dayOne {
@@ -111,6 +112,7 @@ border: 1px solid #131C51;
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   border: 3px solid #131C51;
+  text-wrap: nowrap;
 }
 
 #dayTwo {
@@ -125,6 +127,7 @@ border: 1px solid #131C51;
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   border: 3px solid #131C51;
+  text-wrap: nowrap;
 }
 
 #dayThree {
@@ -139,6 +142,7 @@ border: 1px solid #131C51;
   padding-top: 0.6%;
   padding-bottom: 0.6%;
   border: 3px solid #131C51;
+  text-wrap: nowrap;
 }
 
 .friday {
@@ -147,9 +151,95 @@ border: 1px solid #131C51;
   font-weight: 500;
   font-size: 2em;
   color: #92AFFF;
+  background-color: #3D59A6;
 }
 
 .topContainer {
   display: flex;
-  background-color:#3D59A6;
+  justify-content: space-around;
+  background-color: #3D59A6;
+  padding-top: 3%;
+  padding-right: 10%;
+}
+
+.shortFilmContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shortFilmsAndPanelsContainer {
+background-color: red;
+}
+
+/* FOOTER ---------------------------------------------- */
+
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #131C51;
+}
+
+.contactContainer {
+  min-width: 20%;
+}
+
+.donateContainer {
+  max-width: 20%;
+}
+
+.registerContainer {
+  max-width: 20%;
+}
+
+.linksContainer {
+  min-width: 20%;
+}
+
+.footerHead {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 20%;
+}
+
+.footerText {
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85em;
+  color: #92AFFF;
+}
+
+#emailBox {
+  outline: 2px solid #3D59A6;
+  margin-top: 18%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#donoBox {
+  background-color: #3D59A6;
+  margin-top: 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.center {
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.email {
+  text-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85em;
+  padding-left: 5%;
+  color: #92AFFF;
 }
