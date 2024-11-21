@@ -160,8 +160,8 @@ border: 1px solid #131C51;
   justify-content: space-between;
   background-color: #3D59A6;
   padding-top: 3%;
-  padding-right: 15%;
-  padding-left: 15%;
+  padding-right: 20%;
+  padding-left: 6%;
 }
 
 .shortFilmContainer {
@@ -170,7 +170,7 @@ border: 1px solid #131C51;
   background-color: #3D59A6;
   padding-bottom: 5%;
   padding-right: 10.5%;
-  padding-left: 15%;
+  padding-left: 6%;
 }
 
 .shortFilmsAndPanelsContainer {
@@ -178,13 +178,14 @@ border: 1px solid #131C51;
 }
 
 #halls {
-padding-top: 3%;
+padding-top: 5%;
 font-family: "Nunito", sans-serif;
 text-transform: uppercase;
 font-weight: 500;
 font-size: 2em;
 color: #92AFFF;
 text-wrap: nowrap;
+padding-right: 6%;
 }
 
 .subTitle {
@@ -205,7 +206,7 @@ text-wrap: nowrap;
   display: flex;
   flex-direction: row;
   padding-top: 5%;
-  padding-left: 15%;
+  padding-left: 6%;
 }
 
 #coralPic {
@@ -218,13 +219,21 @@ text-wrap: nowrap;
   flex-direction: column;
   padding-right: 25%;
   padding-left: 5%;
-  padding-top: 5%;
 }
 
 .synopsisText {
   font-family: "Inter", sans-serif;
   font-size: 1em;
   color:#92AFFF;
+}
+
+.filmTitle {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2em;
+  color: white;
+  padding-bottom: 5%;
 }
 
 /* FOOTER ---------------------------------------------- */
