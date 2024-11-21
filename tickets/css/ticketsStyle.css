@@ -94,7 +94,7 @@ border: 1px solid #131C51;
 .passDescriptionFlex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  padding-bottom: 5%;
 }
 
 .ticketFlex {
@@ -102,10 +102,15 @@ border: 1px solid #131C51;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-color:#92AFFF;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
 }
 
 #coralImage {
-  max-width: 35%;
+  max-width: 40%;
   border-radius: 15%;
 }
 
@@ -114,19 +119,49 @@ border: 1px solid #131C51;
   font-size: 1.2em;
   color: white;
   max-width: 50%;
+  padding-left: 5%;
 }
 
 .allTicketsFlex {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .hugeFlexbox {
   display: flex;
   flex-direction: row;
   background-color:#3D59A6;
-  padding-top: 6%;
+  padding-top: 4%;
   padding-right: 6%;
+  padding-left: 6%;
+  padding-bottom: 4%;
+}
+
+.ticketText {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.ticketTextSmall {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+}
+
+#twentyFive {
+  padding-left: 2.1%;
+  padding-right: 2.1%;
+}
+
+#oneHundred {
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 /* FOOTER ---------------------------------------------- */
