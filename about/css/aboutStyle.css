@@ -93,29 +93,48 @@ border: 1px solid #131C51;
 }
 
 #whale {
-    width: 25%; height: 25%;
+  max-width: 45.5%;
 }
 
 .bodyText {
   font-family: "Inter", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .paragraphContainer {
   display: flex;
   flex-direction: row;
+  padding-bottom: 10%;
 }
 
 .differenceContainer {
   display: flex;
   flex-direction: column;
   max-width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .whaleContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  background-color:#3D59A6;
+  padding-top: 4%;
+  padding-right: 6%;
+  padding-bottom: 4%;
+  padding-left: 6%;
+}
+
+.differenceText {
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3em;
+  color: #92AFFF;
 }
 
 /* FOOTER ---------------------------------------------- */
