@@ -6,7 +6,7 @@
     content="width=device-width,
     initial-scale=1.0">
     <title> OceanFirst </title>
-    <link rel="stylesheet" href="../css/scheduleStyle.css">
+    <link rel="stylesheet" href="css/dayTwoStyle.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,48 +19,70 @@
     
     <p id="whiteBar"> . </p>
 
-    <h2 id="filmScreen" > film screening <br>
-        festival </h2>
-
-        <br>
-        <br>
-
-    <a href="../dayOne/dayOne.html"> schedule </a>
-    <a href="../../tickets/tickets.html"> tickets </a>
-    <a href="../../about/about.html"> about </a>
+    <h2 id="filmScreen" > Film Screening <br>
+        Festival </h2>
 </header>
 
 <body>
-    <a href="../dayOne/dayOne.html"> Day 1 </a>
-    <a href="dayTwo.html"> Day 2 </a>
-    <a href="../dayThree/dayThree.html"> Day 3 </a>
+    <div class="navContainer">
+        <a class="navText" href="dayOne.html"> schedule </a>
+        <a class="navText" href="/tickets/tickets.html"> tickets </a>
+        <a class="navText" href="/about/about.html"> about </a>
+    </div>
 
-    <p> Saturday, <br>
-    December 9th </p>
+    <div class="topContainer">
+        <div class="dayContainer">
+            <a id="dayOne" href="../dayOne/dayOne.html"> Day 1 </a>
+            <a id="dayTwo" href="dayTwo.html"> Day 2 </a>
+            <a id="dayThree" href="../dayThree/dayThree.html"> Day 3 </a>
+        </div>
 
-    <p> 3:00pm - 9:00pm <br>
-    in the Planetarium </p>
+        <p class="saturday"> Saturday, December 9th </p>
 
-    <p> Guest Speakers and Concert </p>
+    </div>
 
-    <p> Visit the California Academy of Sciences' incredible <br>
-    planetarium and hear our guest speakers take on the topic <br>
-    of climate change affecting our oceans before enjoying live <br>
-    music performed by Jack Johnson and Billie Eilish. </p>
+    <div class="guestSpeakContainer">
+        <div class="guestSpeakersAndConcertContainer">
+            <p class="subTitle"> Guest Speakers and Concert </p>
+
+            <p class="bodyText"> Visit the California Academy of Sciences' incredible
+                planetarium and hear our guest speakers take on the topic
+                of climate change affecting our oceans before enjoying live
+                music performed by Jack Johnson and Billie Eilish. </p>
+        </div>
+
+        <p id="planetarium"> 3:00pm - 9:00pm <br>
+        in the Planetarium </p>
+
+    </div>
     
-    <img src="../dayTwo/img/Firefly guest speaker at environmental conference 28388.jpg">
+    <div class="speakerPicFlex">
+        <img class="filmPic" src="../dayTwo/img/Firefly guest speaker at environmental conference 28388.jpg">
 
-    <p> Our lineup of guest speakers includes a variety from <br>
-    activists, artists, politicians, and authors. They will <br>
-    each have 20 minutes to present their call to action <br>
-    to fight climate change and protect our oceans. </p>
+        <div class="descriptionFlex">
+            <p class="eventTitle"> Guest Speakers </p>
+            <p class="synopsisText"> Our lineup of guest speakers includes a variety from 
+            activists, artists, politicians, and authors. They will 
+            each have 20 minutes to present their call to action 
+            to fight climate change and protect our oceans. </p>
 
-    <p> The night will end with two amazing performances from <br>
-    Jack Johnson and Billie Eilish, two music stars who believe <br>
-    in climate justice, and who use their platform to spread <br>
-    awareness about the state of our planet. </p>
+        </div>
 
-    <img src="../dayTwo/img/Firefly concert at the california academy of science 68314.jpg">
+    </div>
+
+    <div class="concertPicFlex">
+        <div class="concertDescriptionFlex">
+            <p class="eventTitle"> Concert </p>
+            <p class="synopsisText"> The night will end with two amazing performances from <br>
+            Jack Johnson and Billie Eilish, two music stars who believe <br>
+            in climate justice, and who use their platform to spread <br>
+            awareness about the state of our planet. </p>
+        </div>
+
+    <img class="filmPic" src="../dayTwo/img/Firefly concert at the california academy of science 68314.jpg">
+
+    </div>
+
 </body>
 
 <footer>
