@@ -101,7 +101,7 @@
   
   #dayOne {
     text-decoration: none;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
@@ -117,7 +117,7 @@
   
   #dayTwo {
     text-decoration: none;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
@@ -132,7 +132,7 @@
   
   #dayThree {
     text-decoration: none;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
@@ -146,7 +146,7 @@
   }
   
   .friday {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
@@ -179,7 +179,7 @@
   
   #halls {
   padding-top: 5%;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2.5em;
@@ -232,7 +232,7 @@
   }
   
   .filmTitle {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2em;
@@ -304,7 +304,7 @@
   }
   
   .footerHead {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: 400;
@@ -314,7 +314,7 @@
   
   .footerText {
     text-wrap: wrap;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 0.85em;
     color: #92AFFF;
   }
@@ -335,14 +335,14 @@
   
   .center {
     text-wrap: wrap;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 0.85em;
     text-align: center;
   }
   
   .email {
     text-wrap: wrap;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 0.85em;
     padding-left: 5%;
     color: #92AFFF;

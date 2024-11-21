@@ -139,7 +139,7 @@ border: 1px solid #131C51;
 }
 
 .ticketText {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2.5em;
@@ -147,7 +147,7 @@ border: 1px solid #131C51;
 }
 
 .ticketTextSmall {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1em;
@@ -193,7 +193,7 @@ border: 1px solid #131C51;
 }
 
 .footerHead {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-size: 1.2em;
   font-weight: 400;
@@ -203,7 +203,7 @@ border: 1px solid #131C51;
 
 .footerText {
   text-wrap: wrap;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 0.85em;
   color: #92AFFF;
 }
@@ -224,14 +224,14 @@ border: 1px solid #131C51;
 
 .center {
   text-wrap: wrap;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 0.85em;
   text-align: center;
 }
 
 .email {
   text-wrap: wrap;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 0.85em;
   padding-left: 5%;
   color: #92AFFF;
