@@ -103,8 +103,12 @@ body {
 
 .homeImage {
   max-width: 30%;
+  max-height: 30%;
+  min-width: 300px;
+  min-height: 300px;
   padding-top: 5%;
   padding-bottom: 5%;
+  object-fit: cover;
 }
 
 .shiftingContainer {
@@ -112,6 +116,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-left: 5%;
+  padding-bottom: 5%;
 }
 
 #title {
@@ -122,6 +127,7 @@ body {
   font-weight: 600;
   padding-bottom: 1%;
   text-transform:uppercase;
+  padding-top: 5%;
 }
 
 .shiftingSeas {
@@ -213,4 +219,59 @@ body {
   font-size: 0.85em;
   padding-left: 5%;
   color: #92AFFF;
+}
+
+/* QUERIES ---------------------------------------------- */
+
+@media (max-width: 700px) {
+  .navContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding-top: 6%;
+  }
+}
+
+@media (max-width: 640px) {
+  .footerFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactContainer {
+    min-width: 50%;
+    padding-bottom: 10%;
+  }
+  
+  .donateContainer {
+    max-width: 50%;
+    padding-bottom: 10%;
+  }
+  
+  .registerContainer {
+    max-width: 50%;
+    padding-bottom: 10%;
+  }
+  
+  .linksContainer {
+    min-width: 50%;
+    padding-bottom: 10%;
+  }
+
+  .navContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 8%;
+  }
+
+  .middleBlue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 }
