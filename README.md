@@ -24,6 +24,17 @@ https://drive.google.com/drive/folders/1CbFjVOBFiwSC-SLkhL8WUaAZGaEgTmgB?usp=dri
 Link:
 https://www.figma.com/proto/XYCVAFDM2j9cQ3MxedQs0U/OceanFirst-Wireframe?node-id=0-1&t=DhZRfisw3275nxI1-1
 
+# asset designs
+
+Poster for the event:
+
+<img src="development/oceanFirstPoster.jpg" style="height: 550px;"/>
+
+Poster mock up:
+
+<img src="development/posterMockup.jpg" style="height: 550px;"/>
+
+
 # acknowledgment
 
 ### fonts:
