@@ -65,6 +65,7 @@
 
 body {
   background-color: #92AFFF;
+  padding-bottom: 23%;
 }
 
 .navContainer {
@@ -83,13 +84,24 @@ body {
   text-decoration: none;
   font-family: "inter", sans-serif;
   font-size: 1.1em;
-  font-weight: 200;
+  font-weight: 400;
   color: #131C51;
   padding-right: 5%;
   padding-left: 5%;
-  padding-bottom: 1.5%;
+  padding-bottom: 1%;
   padding-top: 1.5%;
-  border: 1px solid #131C51;
+}
+
+#schedule:hover {
+  color: white;
+}
+
+#about:hover {
+  color: white;
+}
+
+#tickets:hover {
+  color: white;
 }
 
 .middleBlue {
@@ -149,6 +161,12 @@ body {
 }
 
 /* FOOTER ---------------------------------------------- */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 .footerFlex {
   display: flex;

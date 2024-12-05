@@ -79,16 +79,28 @@ padding-right: 3%;
 }
 
 .navText {
-text-decoration: none;
-font-family: "inter", sans-serif;
-font-size: 1.1em;
-font-weight: 200;
-color: #131C51;
-padding-right: 5%;
-padding-left: 5%;
-padding-bottom: 1.5%;
-padding-top: 1.5%;
-border: 1px solid #131C51;
+  text-decoration: none;
+  font-family: "inter", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #131C51;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-top: 1.5%;
+}
+
+#tickets {
+  background-color: #3D59A6;
+  color: white;
+}
+
+#about:hover {
+  color: white;
+}
+
+#schedule:hover {
+  color: white;
 }
 
 .passDescriptionFlex {
