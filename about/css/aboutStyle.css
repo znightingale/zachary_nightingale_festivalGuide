@@ -27,7 +27,6 @@ font-style: normal;
 font-family: "Nunito Sans", sans-serif;
 font-optical-sizing: auto;
 font-weight: 500;
-font-variation-settings:
 }
 
 /* HEADER --------------------------------------------- */
@@ -89,10 +88,6 @@ padding-right: 3%;
   padding-left: 5%;
   padding-bottom: 1%;
   padding-top: 1.5%;
-}
-
-.navText:hover {
-  color: white;
 }
 
 #about {

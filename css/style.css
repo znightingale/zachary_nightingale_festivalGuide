@@ -65,7 +65,7 @@
 
 body {
   background-color: #92AFFF;
-  padding-bottom: 23%;
+  padding-bottom: 22%;
 }
 
 .navContainer {
@@ -252,6 +252,15 @@ footer {
 }
 
 @media (max-width: 640px) {
+
+  body {
+    padding-bottom: 0%;
+  }
+
+  footer {
+    position: relative;
+  }
+
   .footerFlex {
     display: flex;
     flex-direction: column;
